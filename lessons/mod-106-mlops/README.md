@@ -339,6 +339,63 @@ You'll have successfully completed this module when you can:
 
 ---
 
+## Advanced Exercises
+
+After completing the foundational lessons, challenge yourself with these production-grade MLOps exercises:
+
+### Exercise 04: Experiment Tracking and Model Registry with MLflow (30-38 hours)
+Build a production-grade ML experiment tracking and model registry system.
+
+**Location:** `exercises/exercise-04-experiment-tracking-mlflow/`
+**Prerequisites:** Completed all lessons, MLflow, PostgreSQL, S3/MinIO
+**Skills:** Experiment tracking, model registry, lifecycle management, A/B testing
+
+**Topics:**
+- Centralized MLflow tracking server
+- Model versioning and registry
+- A/B testing framework
+- Model performance monitoring
+- Automated model lifecycle management (staging → production → archived)
+- Multi-user collaboration
+- Model governance and compliance
+- Integration with CI/CD pipelines
+
+### Exercise 05: Model Monitoring and Drift Detection (estimated 30-40 hours)
+Implement comprehensive model monitoring in production.
+
+**Location:** `exercises/exercise-05-model-monitoring-drift/`
+**Prerequisites:** Completed Exercise 04, understanding of statistical methods
+**Skills:** Data drift detection, model performance monitoring, alerting
+
+**Topics:**
+- Data drift detection algorithms
+- Model performance degradation monitoring
+- Feature distribution monitoring
+- Prediction drift analysis
+- Automated retraining triggers
+- Real-time alerting systems
+- Dashboard and visualization
+- Root cause analysis
+
+### Exercise 06: CI/CD for ML Pipelines (estimated 30-40 hours)
+Build automated CI/CD pipelines for ML workflows.
+
+**Location:** `exercises/exercise-06-ci-cd-ml-pipelines/`
+**Prerequisites:** Completed Exercise 05, CI/CD knowledge
+**Skills:** Pipeline automation, testing strategies, deployment patterns
+
+**Topics:**
+- Automated model training pipelines
+- Model testing (unit, integration, performance)
+- Automated model evaluation
+- Deployment strategies (blue-green, canary)
+- Rollback mechanisms
+- Multi-environment management (dev, staging, prod)
+- Pipeline monitoring and observability
+- Security scanning and validation
+
+---
+
 ## Common Challenges & Solutions
 
 ### Challenge 1: Experiment Tracking Overhead

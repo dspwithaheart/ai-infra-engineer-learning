@@ -110,6 +110,45 @@ Combine all tools to create a complete pipeline:
 - Data quality validation
 - Model training trigger
 
+## Advanced Exercises
+
+After completing the foundational lessons and hands-on projects, challenge yourself with these production-grade data pipeline exercises:
+
+### Exercise 03: Real-Time ML Feature Pipeline with Kafka (36-44 hours)
+Build a production-grade real-time feature engineering pipeline using Apache Kafka and Flink.
+
+**Location:** `exercises/exercise-03-streaming-pipeline-kafka/`
+**Prerequisites:** Completed all lessons, understanding of Kafka, Flink, feature stores
+**Skills:** Stream processing, real-time feature engineering, exactly-once semantics
+
+**Topics:**
+- Apache Kafka event streaming
+- Apache Flink stream processing
+- Feature store integration (Feast, Tecton)
+- Real-time feature computation (<100ms latency)
+- Exactly-once processing guarantees
+- Backfill historical features
+- Online/offline feature consistency
+- High-throughput event processing (100K+ events/sec)
+
+### Exercise 04: Workflow Orchestration at Scale with Airflow (estimated 35-45 hours)
+Implement enterprise-grade workflow orchestration for complex ML pipelines.
+
+**Location:** `exercises/exercise-04-workflow-orchestration-airflow/`
+**Prerequisites:** Completed Exercise 03, advanced Airflow knowledge
+**Skills:** Advanced DAG patterns, dynamic task generation, SLA management
+
+**Topics:**
+- Complex DAG patterns and dependencies
+- Dynamic task generation
+- SubDAGs and TaskGroups
+- Custom operators and sensors
+- SLA monitoring and alerting
+- Executor configuration (Celery, Kubernetes)
+- DAG versioning and rollback
+- Multi-tenant orchestration
+- Integration with ML frameworks
+
 ## Assessment
 
 - **Quiz**: Data pipeline concepts, Airflow, DVC, Spark (25 questions)

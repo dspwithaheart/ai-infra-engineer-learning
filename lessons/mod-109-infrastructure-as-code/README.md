@@ -160,6 +160,47 @@ This module includes practical exercises in the `exercises/` directory:
 - **Quiz and assessment**: 2-3 hours
 - **Total**: 32-41 hours
 
+## Advanced Exercises
+
+After completing the foundational lessons, tackle these production IaC projects:
+
+### Exercise 01: Production ML Infrastructure with Terraform (32-40 hours)
+Build complete ML infrastructure using Terraform with best practices.
+
+**Location:** `exercises/exercise-01-terraform-ml-infrastructure/`
+**Prerequisites:** Completed all lessons, Terraform knowledge, cloud platform access
+**Skills:** Infrastructure as Code, Terraform modules, state management, multi-environment
+
+**Topics:**
+- VPC and networking setup
+- EKS/GKE cluster provisioning
+- GPU node groups configuration
+- S3/GCS storage and IAM policies
+- RDS/Cloud SQL databases
+- Monitoring stack (Prometheus, Grafana)
+- Secrets management (Vault, AWS Secrets Manager)
+- Multi-environment management (dev, staging, prod)
+- Remote state and locking
+- CI/CD for infrastructure changes
+
+### Exercise 02: Multi-Cloud ML Infrastructure with Pulumi (32-40 hours)
+Deploy ML infrastructure across multiple cloud providers using Pulumi.
+
+**Location:** `exercises/exercise-02-pulumi-multicloud-ml/`
+**Prerequisites:** Completed Exercise 01, programming experience (Python/TypeScript)
+**Skills:** Multi-cloud deployment, Pulumi, cloud abstraction, disaster recovery
+
+**Topics:**
+- Pulumi programming model (Python/TypeScript)
+- AWS + GCP + Azure deployment
+- Cloud-agnostic abstractions
+- Cost optimization strategies
+- Disaster recovery and failover
+- Cloud-specific optimizations
+- Resource tagging and organization
+- Policy as code (Pulumi CrossGuard)
+- Stack management and collaboration
+
 ## Resources
 
 See `resources.md` for:

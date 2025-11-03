@@ -174,6 +174,48 @@ Production readiness, high availability, security, compliance, and operational e
 3. **Lessons 05-06**: Advanced - Fine-tuning and optimization
 4. **Lessons 07-08**: Advanced - Platform architecture and production
 
+## Advanced Exercises
+
+After completing the foundational lessons, build these production-grade LLM systems:
+
+### Exercise 01: Production LLM Serving Platform (vLLM + Kubernetes) (36-44 hours)
+Deploy a scalable LLM serving platform with advanced optimizations.
+
+**Location:** `exercises/exercise-01-production-llm-serving/`
+**Prerequisites:** Completed all lessons, GPU access, Kubernetes knowledge
+**Skills:** LLM serving, vLLM, quantization, GPU optimization, autoscaling
+
+**Topics:**
+- vLLM deployment and configuration
+- Model quantization (FP16, INT8, GPTQ, AWQ)
+- Continuous batching for throughput
+- PagedAttention for memory efficiency
+- Multi-GPU serving (tensor parallelism)
+- Kubernetes GPU scheduling
+- Horizontal pod autoscaling
+- Cost optimization strategies
+- Monitoring and observability
+- A/B testing different models
+
+### Exercise 02: Production RAG System with Vector Database (36-44 hours)
+Build a production Retrieval-Augmented Generation system.
+
+**Location:** `exercises/exercise-02-production-rag-system/`
+**Prerequisites:** Completed Exercise 01, understanding of embeddings
+**Skills:** RAG architecture, vector databases, embedding models, hybrid search
+
+**Topics:**
+- Document ingestion pipeline
+- Chunking strategies (fixed, semantic, recursive)
+- Embedding model selection and deployment
+- Vector database setup (Pinecone, Weaviate, Qdrant)
+- Hybrid search (vector + keyword)
+- Reranking strategies
+- Context window management
+- RAG evaluation metrics
+- Caching and optimization
+- Production deployment patterns
+
 ## Real-World Applications
 
 This module prepares you for real-world LLM infrastructure challenges:

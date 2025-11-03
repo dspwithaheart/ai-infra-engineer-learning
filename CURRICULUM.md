@@ -2043,3 +2043,19 @@ This curriculum was developed based on:
 *Last Updated: 2025-01-15*
 *Curriculum Version: 1.0*
 *Status: ✅ Complete*
+
+---
+
+## Requirement-to-Module Mapping
+
+| Job Requirement | Curriculum Coverage |
+| --- | --- |
+| Build and maintain fault-tolerant, high-performance systems for serving ML/LLM workloads at scale | Module 04 - Kubernetes Fundamentals<br>Module 07 - GPU Computing & ML Acceleration<br>Module 10 - LLM Infrastructure<br>Project 103 - Production LLM Deployment |
+| Develop and maintain data pipelines for training and serving machine learning models | Module 05 - Data Pipeline Engineering<br>Module 06 - MLOps Fundamentals<br>Project 102 - MLOps Pipeline |
+| Build automation scripts and infrastructure as code to streamline deployment and management tasks | Module 01 - Foundations<br>Module 09 - Infrastructure as Code<br>Project 102 - MLOps Pipeline |
+| Maintain and optimize training infrastructure stack including data pipeline, GPU utilization, monitoring, and observability | Module 05 - Data Pipeline Engineering<br>Module 07 - GPU Computing & ML Acceleration<br>Module 08 - Monitoring & Observability |
+| Collaborate with data scientists to deploy models into production environments | Module 03 - Containerization & Docker<br>Module 04 - Kubernetes Fundamentals<br>Project 101 - Basic Model Serving System |
+| Monitor and troubleshoot ML infrastructure performance issues | Module 08 - Monitoring & Observability<br>Project 102 - MLOps Pipeline<br>Project 103 - Production LLM Deployment |
+| Implement containerization and orchestration for ML workloads | Module 03 - Containerization & Docker<br>Module 04 - Kubernetes Fundamentals<br>Project 101 - Basic Model Serving System |
+| Maintain documentation for infrastructure components and deployment procedures | Module 01 - Foundations<br>Module 06 - MLOps Fundamentals<br>Project 102 - MLOps Pipeline |
+| Participate in on-call rotations for production systems | Module 08 - Monitoring & Observability<br>Project 103 - Production LLM Deployment |

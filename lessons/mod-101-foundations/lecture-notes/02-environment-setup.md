@@ -1,7 +1,17 @@
 # Lesson 02: Development Environment Setup
 
 **Duration:** 5 hours
-**Objectives:** Install and configure all tools required for ML infrastructure development
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Install and configure Python 3.9+ with virtual environment management
+- Set up Git for version control and configure basic workflows
+- Install Docker and understand basic containerization concepts
+- Install Kubernetes CLI tools (kubectl) and verify cluster connectivity
+- Configure cloud platform CLI tools (AWS, GCP, or Azure)
+- Set up a professional code editor (VS Code or PyCharm) with ML extensions
+- Create and manage development environments for ML infrastructure projects
 
 ## Overview
 

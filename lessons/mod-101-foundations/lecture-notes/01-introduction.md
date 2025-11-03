@@ -1,7 +1,16 @@
 # Lesson 01: Introduction to ML Infrastructure
 
 **Duration:** 3 hours
-**Objectives:** Understand the field of ML infrastructure, career paths, and key concepts
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Define ML infrastructure and explain its role in the machine learning lifecycle
+- Differentiate between ML infrastructure and traditional infrastructure engineering
+- Identify the key responsibilities of an ML Infrastructure Engineer
+- Describe the MLOps lifecycle and its major components
+- Explain the unique challenges in deploying and maintaining ML systems in production
+- Understand career paths and skill requirements for ML infrastructure roles
 
 ## Welcome!
 

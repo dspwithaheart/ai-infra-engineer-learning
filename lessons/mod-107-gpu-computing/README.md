@@ -195,6 +195,61 @@ sudo apt-get install nvtop
 - **Gradient Accumulation**: Effective batch size > physical batch size
 - **ZeRO Optimizer**: Reduce memory footprint of optimizer states
 
+## Advanced Exercises
+
+After completing the foundational lessons, challenge yourself with these production-grade GPU computing exercises:
+
+### Exercise 04: GPU Cluster Management (estimated 35-45 hours)
+Build and manage a multi-GPU cluster for distributed training.
+
+**Location:** `exercises/exercise-04-gpu-cluster-management/`
+**Prerequisites:** Completed all lessons, understanding of distributed systems
+**Skills:** Cluster management, resource scheduling, multi-GPU coordination
+
+**Topics:**
+- Multi-node GPU cluster setup
+- SLURM or Kubernetes for GPU scheduling
+- Network topology optimization (NVLink, InfiniBand)
+- GPU sharing and time-slicing
+- Resource allocation policies
+- Job queuing and prioritization
+- Monitoring and telemetry
+- Failure handling and recovery
+
+### Exercise 05: GPU Performance Optimization (estimated 35-45 hours)
+Optimize deep learning models for maximum GPU performance.
+
+**Location:** `exercises/exercise-05-gpu-performance-optimization/`
+**Prerequisites:** Completed Exercise 04, profiling experience
+**Skills:** Performance profiling, kernel optimization, memory management
+
+**Topics:**
+- CUDA profiling (Nsight Systems, Nsight Compute)
+- Kernel fusion and optimization
+- Memory bandwidth optimization
+- Mixed precision training (FP16, BF16, INT8)
+- Gradient checkpointing strategies
+- Custom CUDA kernels
+- Performance benchmarking
+- Bottleneck identification and resolution
+
+### Exercise 06: Distributed GPU Training (estimated 35-45 hours)
+Implement distributed training across multiple GPUs and nodes.
+
+**Location:** `exercises/exercise-06-distributed-gpu-training/`
+**Prerequisites:** Completed Exercise 05, understanding of distributed training
+**Skills:** Data parallelism, model parallelism, pipeline parallelism
+
+**Topics:**
+- Data parallel training (DDP, Horovod)
+- Model parallel training (Megatron-LM patterns)
+- Pipeline parallelism
+- ZeRO optimizer stages (1, 2, 3)
+- Gradient accumulation strategies
+- Communication optimization (NCCL)
+- Large model training (billions of parameters)
+- Training stability and convergence
+
 ## Real-World Applications
 
 This module prepares you for:

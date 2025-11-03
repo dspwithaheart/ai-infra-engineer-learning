@@ -44,7 +44,16 @@ This repository contains a **complete, production-ready learning path** for beco
 
 ## ✨ What's New
 
-**Recently Added Content:**
+**October 2025 Updates:**
+- 📚 **Complete Documentation Overhaul**
+  - All 8 Module 101 lectures now have comprehensive learning objectives
+  - Module 101 Exercise 07 added (FastAPI ML Service, 4-5 hours)
+  - All advanced exercises (Modules 104-110) now properly documented
+  - 24+ exercises with accurate time estimates and prerequisites
+- 🗺️ **Exercise & Solution Mapping**
+  - New [Complete Exercise Index](EXERCISES_INDEX.md) - 24+ exercises cataloged
+  - Cross-reference to [Solutions Repository](../../../solutions/ai-infra-engineer-solutions/)
+  - 100% solution coverage for all 20 advanced exercises
 - 📝 **Comprehensive Quizzes** for modules 102-110 (265+ questions)
   - Module 102: Cloud Computing (mid-module + final, 50 questions)
   - Module 103: Containerization (25 questions)
@@ -402,6 +411,7 @@ All learning materials can be completed within **free tier limits**:
 - ❓ **FAQ**: [resources/faq.md](./resources/faq.md)
 
 ### Curriculum Documentation
+- 📝 **[Complete Exercise Index](EXERCISES_INDEX.md)** - Comprehensive catalog of all 24+ exercises with time estimates and solutions
 - 📋 **[Technology Versions Guide](VERSIONS.md)** - Recommended versions for all tools and frameworks
 - 🗺️ **[Curriculum Cross-Reference](https://github.com/ai-infra-curriculum/.github/blob/main/CURRICULUM_CROSS_REFERENCE.md)** - Mapping between Junior and Engineer tracks
 - 📈 **[Career Progression Guide](https://github.com/ai-infra-curriculum/.github/blob/main/CAREER_PROGRESSION.md)** - Complete career ladder from Junior to Principal
@@ -442,12 +452,14 @@ All learning materials can be completed within **free tier limits**:
 
 ## 📊 Repository Statistics
 
-- **Total Files:** 207
+- **Total Files:** 207+
 - **Estimated Lines:** ~95,000+
 - **Modules:** 10 (all complete)
+- **Module Exercises:** 24+ exercises (663-840 hours)
 - **Projects:** 3 (all complete)
-- **Learning Hours:** 500+
+- **Total Learning Hours:** 500+ (modules) + 663-840 (exercises)
 - **Technologies:** 50+
+- **Solution Coverage:** 100% for advanced exercises
 
 ### Technology Stack Covered
 

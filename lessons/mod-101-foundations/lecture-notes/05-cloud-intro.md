@@ -1,7 +1,17 @@
 # Lesson 05: Cloud Computing for ML Infrastructure
 
 **Duration:** 5 hours
-**Objectives:** Understand cloud computing fundamentals and how to leverage cloud platforms for ML infrastructure
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Define cloud computing and explain its key characteristics
+- Differentiate between IaaS, PaaS, and SaaS service models
+- Compare the three major cloud providers (AWS, GCP, Azure) for ML workloads
+- Identify appropriate cloud services for different ML infrastructure needs
+- Understand cloud pricing models and cost optimization strategies
+- Explain cloud security, compliance, and data residency concepts
+- Design basic multi-region cloud architectures for ML systems
 
 ## Introduction
 

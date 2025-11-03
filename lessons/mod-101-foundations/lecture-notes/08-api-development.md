@@ -1,7 +1,19 @@
 # Lesson 08: API Development for ML Services
 
 **Duration:** 5 hours
-**Objectives:** Build production-ready APIs for ML model serving
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Build RESTful APIs using FastAPI for ML model serving
+- Implement request validation using Pydantic models
+- Handle asynchronous requests for improved throughput
+- Add authentication and authorization to ML APIs
+- Implement rate limiting and request throttling
+- Generate automatic API documentation using OpenAPI/Swagger
+- Add comprehensive error handling and logging
+- Test APIs using pytest and integration testing strategies
+- Deploy FastAPI applications with Uvicorn and Gunicorn
 
 ## Introduction
 

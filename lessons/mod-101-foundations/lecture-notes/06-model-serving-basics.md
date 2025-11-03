@@ -1,7 +1,18 @@
 # Lesson 06: Model Serving Basics
 
 **Duration:** 8 hours
-**Objectives:** Understand how to deploy and serve ML models in production
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Explain the difference between model training and model serving
+- Compare batch inference vs. real-time inference serving patterns
+- Implement basic model serving using Flask and FastAPI
+- Deploy models using TorchServe, TensorFlow Serving, or ONNX Runtime
+- Understand model versioning and A/B testing strategies
+- Implement health checks, logging, and basic monitoring for model endpoints
+- Optimize model serving for latency and throughput
+- Handle common serving challenges (batching, caching, error handling)
 
 ## Introduction
 

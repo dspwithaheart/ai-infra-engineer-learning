@@ -189,6 +189,57 @@ By the end of this module, you will be able to:
 **Duration:** 3 hours
 **Deliverable:** GPU-accelerated inference with resource limits
 
+## Advanced Exercises
+
+After mastering the foundational Kubernetes concepts through lessons and hands-on activities, challenge yourself with these production-grade exercises:
+
+### Exercise 04: Kubernetes Cluster Autoscaler with Custom Metrics (35-43 hours)
+Build a production-grade cluster autoscaling system that scales nodes based on custom metrics.
+
+**Location:** `exercises/exercise-04-k8s-cluster-autoscaler/`
+**Prerequisites:** Completed all lessons, understanding of Prometheus, Custom Metrics API
+**Skills:** Advanced autoscaling (HPA, VPA, Cluster Autoscaler), custom metrics, cost optimization
+
+**Topics:**
+- Horizontal Pod Autoscaler (HPA) with custom metrics
+- Vertical Pod Autoscaler (VPA)
+- Cluster Autoscaler configuration
+- GPU utilization metrics
+- Model inference queue depth monitoring
+- Cost-optimized scaling strategies
+- Multi-tenancy and fair resource allocation
+
+### Exercise 05: Service Mesh Observability (estimated 35-45 hours)
+Implement a complete service mesh for ML microservices with advanced observability.
+
+**Location:** `exercises/exercise-05-service-mesh-observability/`
+**Prerequisites:** Completed Exercise 04, understanding of service mesh concepts
+**Skills:** Istio/Linkerd, distributed tracing, service mesh patterns
+
+**Topics:**
+- Service mesh installation and configuration
+- Traffic management (canary, blue-green)
+- mTLS and security policies
+- Distributed tracing with Jaeger/Zipkin
+- Advanced observability and metrics
+- Failure injection and chaos engineering
+
+### Exercise 06: Kubernetes Operator Framework (estimated 35-45 hours)
+Build a custom Kubernetes operator for managing ML model lifecycle.
+
+**Location:** `exercises/exercise-06-k8s-operator-framework/`
+**Prerequisites:** Completed Exercise 05, Go or Python programming
+**Skills:** Operator pattern, Custom Resource Definitions (CRDs), controller development
+
+**Topics:**
+- Custom Resource Definitions (CRDs)
+- Operator SDK and controller-runtime
+- Reconciliation loops
+- ML model lifecycle management
+- Automated training job scheduling
+- Model versioning and rollback
+- Integration with ML registries
+
 ## Assessments
 
 ### Quiz: Kubernetes Architecture and Concepts

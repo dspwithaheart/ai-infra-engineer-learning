@@ -1,7 +1,17 @@
 # Lesson 03: ML Infrastructure Basics
 
 **Duration:** 4 hours
-**Objectives:** Understand the ML lifecycle and infrastructure requirements at each stage
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Describe the complete ML lifecycle from data collection to production deployment
+- Identify infrastructure requirements for each stage of the ML lifecycle
+- Explain the differences between training infrastructure and serving infrastructure
+- Understand data versioning and lineage tracking requirements
+- Describe model versioning, registry, and deployment strategies
+- Identify monitoring and observability requirements for ML systems
+- Explain the concept of feedback loops in production ML systems
 
 ## Introduction
 

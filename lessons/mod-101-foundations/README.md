@@ -65,50 +65,77 @@ By the end of this module, you will be able to:
 ### Lesson 01: Introduction to ML Infrastructure (3 hours)
 Introduction to the field, career paths, and key concepts
 
-**Reading:** `01-introduction.md`
+**Reading:** `lecture-notes/01-introduction.md`
 **Exercise:** None (orientation lesson)
 
 ### Lesson 02: Environment Setup (5 hours)
 Hands-on setup of all development tools and verification
 
-**Reading:** `02-environment-setup.md`
-**Exercise:** `exercises/exercise-01-environment.md`
+**Reading:** `lecture-notes/02-environment-setup.md`
+**Exercise:** `exercises/exercise-01-environment.md` (2-3 hours)
 
 ### Lesson 03: ML Infrastructure Basics (4 hours)
 Deep dive into ML lifecycle and infrastructure requirements
 
-**Reading:** `03-ml-infrastructure-basics.md`
-**Exercise:** `exercises/exercise-02-ml-lifecycle.md`
+**Reading:** `lecture-notes/03-ml-infrastructure-basics.md`
+**Exercise:** Concepts reinforced in later exercises
 
 ### Lesson 04: ML Frameworks Fundamentals (6 hours)
 Working with PyTorch and TensorFlow for infrastructure engineers
 
-**Reading:** `04-ml-frameworks.md`
-**Exercise:** `exercises/exercise-03-frameworks.md`
+**Reading:** `lecture-notes/04-ml-frameworks.md`
+**Exercise:** Concepts applied in Exercise 05 (ML Framework Benchmarking)
 
 ### Lesson 05: Cloud Computing Intro (5 hours)
 Cloud platforms, services, and first deployments
 
-**Reading:** `05-cloud-intro.md`
-**Exercise:** `exercises/exercise-04-cloud.md`
+**Reading:** `lecture-notes/05-cloud-intro.md`
+**Exercise:** Concepts applied in Docker and Kubernetes exercises
 
 ### Lesson 06: Model Serving Basics (8 hours)
 Deploy first ML model with TorchServe or TensorFlow Serving
 
-**Reading:** `06-model-serving.md`
-**Exercise:** `exercises/exercise-05-serving.md`
+**Reading:** `lecture-notes/06-model-serving-basics.md`
+**Exercise:** Concepts applied in Exercise 07 (API Development)
 
 ### Lesson 07: Containerization Intro (6 hours)
 Docker basics and containerizing ML applications
 
-**Reading:** `07-docker-basics.md`
-**Exercise:** `exercises/exercise-06-docker.md`
+**Reading:** `lecture-notes/07-docker-basics.md`
+**Exercise:** `exercises/exercise-02-docker.md` (2-3 hours)
 
 ### Lesson 08: API Development for ML (5 hours)
 Building REST APIs for model inference with FastAPI
 
-**Reading:** `08-api-development.md`
-**Exercise:** `exercises/exercise-07-api.md`
+**Reading:** `lecture-notes/08-api-development.md`
+**Exercises:**
+- `exercises/exercise-03-kubernetes.md` (3-4 hours) - Deploy ML apps to Kubernetes
+- `exercises/exercise-07-api.md` (4-5 hours) - Build FastAPI ML service
+
+## Advanced Projects
+
+After completing the foundational exercises, challenge yourself with these capstone-level projects:
+
+### Exercise 04: Python Environment Manager (30-38 hours)
+Build a comprehensive Python environment management tool similar to pyenv/poetry.
+
+**Location:** `exercises/exercise-04-python-env-manager/`
+**Prerequisites:** Completed Lessons 01-08
+**Skills:** Advanced Python, CLI development, dependency management, subprocess handling
+
+### Exercise 05: ML Framework Benchmarking Tool (31-40 hours)
+Create an automated benchmarking system comparing PyTorch, TensorFlow, and JAX performance.
+
+**Location:** `exercises/exercise-05-ml-framework-benchmark/`
+**Prerequisites:** Completed Lessons 01-08, GPU access recommended
+**Skills:** Performance profiling, framework APIs, benchmarking methodologies, visualization
+
+### Exercise 06: FastAPI ML Service Template Generator (27-34 hours)
+Build a code generator that creates production-ready FastAPI services for ML model serving.
+
+**Location:** `exercises/exercise-06-fastapi-ml-template-generator/`
+**Prerequisites:** Completed Lessons 01-08
+**Skills:** Code generation, Jinja2 templates, FastAPI patterns, Docker, CI/CD
 
 ## Hands-On Activities
 

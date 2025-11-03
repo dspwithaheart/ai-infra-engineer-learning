@@ -1,7 +1,18 @@
 # Lesson 04: ML Frameworks Fundamentals
 
 **Duration:** 6 hours
-**Objectives:** Understand PyTorch and TensorFlow from an infrastructure engineer's perspective
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Compare PyTorch and TensorFlow architectures and use cases
+- Load and run pre-trained models from both PyTorch and TensorFlow
+- Export models to production formats (ONNX, TorchScript, SavedModel)
+- Understand model serialization and deserialization processes
+- Identify framework-specific dependencies and version compatibility issues
+- Optimize models for inference performance
+- Troubleshoot common framework deployment issues
+- Choose appropriate serving strategies based on framework characteristics
 
 ## Introduction
 

@@ -1,7 +1,18 @@
 # Lesson 07: Docker Basics for ML Infrastructure
 
 **Duration:** 6 hours
-**Objectives:** Understand containerization and use Docker for ML applications
+
+## Learning Objectives
+
+By the end of this lecture, you will be able to:
+- Explain containerization and how Docker solves environment consistency problems
+- Build Docker images for ML applications with appropriate base images
+- Write optimized Dockerfiles using multi-stage builds and layer caching
+- Manage Docker containers (start, stop, logs, exec)
+- Use Docker volumes for persistent data and model storage
+- Configure Docker networking for multi-container applications
+- Push and pull images from Docker registries (Docker Hub, ECR, GCR)
+- Apply Docker best practices for security and image size optimization
 
 ## Introduction
 

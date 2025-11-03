@@ -217,6 +217,44 @@ pip install grafanalib             # Grafana as code
 - **Service Mesh**: Automatic trace instrumentation
 - **Tail-based Sampling**: Sample after seeing full trace
 
+## Advanced Exercises
+
+After completing the foundational lessons, tackle these comprehensive observability exercises:
+
+### Exercise 01: Production Observability Stack (Prometheus + Grafana + Loki) (28-36 hours)
+Build a unified observability platform for ML infrastructure.
+
+**Location:** `exercises/exercise-01-observability-stack/`
+**Prerequisites:** Completed all lessons, Docker, Kubernetes knowledge
+**Skills:** Full-stack observability, metrics, logs, dashboards, alerting
+
+**Topics:**
+- Prometheus metrics collection and storage
+- Grafana dashboard creation and templating
+- Loki log aggregation
+- Alert rules and notification channels
+- Service discovery and scraping
+- High availability setup
+- Cost optimization strategies
+- Cross-service correlation
+
+### Exercise 02: ML Model Monitoring (28-36 hours)
+Implement comprehensive monitoring for ML models in production.
+
+**Location:** `exercises/exercise-02-ml-model-monitoring/`
+**Prerequisites:** Completed Exercise 01, ML fundamentals
+**Skills:** Model performance tracking, data drift detection, custom metrics
+
+**Topics:**
+- Model performance metrics (accuracy, latency, throughput)
+- Prediction distribution monitoring
+- Data drift detection (feature distributions)
+- Model drift detection (performance degradation)
+- Custom ML-specific metrics
+- Real-time alerting on model issues
+- A/B test monitoring
+- Model comparison dashboards
+
 ## Real-World Applications
 
 This module prepares you for:

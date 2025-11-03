@@ -295,6 +295,122 @@ project-103-llm-deployment/
 7. ✅ Comprehensive documentation
 8. ✅ Demo video (optional)
 
+## Evaluation Criteria
+
+Your project will be evaluated based on the following criteria. Each category must meet the minimum requirements for project completion.
+
+### 1. Functionality (30 points)
+
+**LLM Serving (15 points)**
+- [ ] LLM successfully loaded and serving predictions (5 pts)
+- [ ] Supports streaming responses (3 pts)
+- [ ] Model quantization implemented (FP16 or INT8) (4 pts)
+- [ ] Handles concurrent requests without errors (3 pts)
+
+**RAG System (15 points)**
+- [ ] Document ingestion pipeline working (4 pts)
+- [ ] Vector database integrated and searchable (4 pts)
+- [ ] Retrieval returns relevant context (4 pts)
+- [ ] RAG responses include source citations (3 pts)
+
+### 2. Performance (25 points)
+
+**Latency Requirements**
+- [ ] P50 latency < 2 seconds for short prompts (5 pts)
+- [ ] P95 latency < 5 seconds for medium prompts (5 pts)
+- [ ] P99 latency < 10 seconds for long prompts (3 pts)
+
+**Throughput Requirements**
+- [ ] Handles ≥ 10 concurrent requests (4 pts)
+- [ ] Throughput ≥ 5 requests/second sustained (4 pts)
+
+**Resource Efficiency**
+- [ ] GPU utilization > 60% under load (4 pts)
+
+### 3. Cost Optimization (15 points)
+
+- [ ] Cost per 1000 requests documented and < $5 (5 pts)
+- [ ] Quantization reduces memory by ≥ 30% (4 pts)
+- [ ] Batch processing implemented for efficiency (3 pts)
+- [ ] Auto-scaling configured based on load (3 pts)
+
+### 4. Monitoring & Observability (15 points)
+
+- [ ] Prometheus metrics for LLM (latency, throughput, errors) (5 pts)
+- [ ] Grafana dashboard with key metrics (4 pts)
+- [ ] LLM-specific metrics (tokens/sec, GPU memory, cache hit rate) (4 pts)
+- [ ] Alerts configured for critical failures (2 pts)
+
+### 5. Code Quality & Documentation (15 points)
+
+**Code Quality (8 points)**
+- [ ] Clean, readable code with proper structure (3 pts)
+- [ ] Comprehensive error handling (2 pts)
+- [ ] Unit tests with >70% coverage (3 pts)
+
+**Documentation (7 points)**
+- [ ] Architecture documented (2 pts)
+- [ ] Deployment guide with step-by-step instructions (2 pts)
+- [ ] RAG implementation explained (1 pt)
+- [ ] Optimization techniques documented (1 pt)
+- [ ] Cost analysis with breakdown (1 pt)
+
+### Minimum Passing Score
+
+**Total Points:** 100
+**Minimum to Pass:** 70 points
+
+### Excellence Criteria (Bonus)
+
+Earn additional recognition by achieving:
+
+**Advanced Optimizations (+10 points)**
+- [ ] Continuous batching implemented (3 pts)
+- [ ] KV cache optimization (3 pts)
+- [ ] Multi-GPU support (4 pts)
+
+**Production Readiness (+10 points)**
+- [ ] Rate limiting implemented (2 pts)
+- [ ] Authentication/authorization (3 pts)
+- [ ] High availability (multi-replica) (3 pts)
+- [ ] Disaster recovery plan (2 pts)
+
+**Innovation (+5 points)**
+- [ ] Novel optimization technique
+- [ ] Custom prompt engineering
+- [ ] Advanced RAG features (re-ranking, hybrid search)
+
+### Success Benchmarks
+
+Your project should demonstrate:
+
+| Metric | Minimum | Target | Excellent |
+|--------|---------|--------|-----------|
+| **Latency (P95)** | < 10s | < 5s | < 3s |
+| **Throughput** | 5 RPS | 10 RPS | 20+ RPS |
+| **GPU Utilization** | > 50% | > 70% | > 85% |
+| **Cost per 1K requests** | < $10 | < $5 | < $2 |
+| **Test Coverage** | > 60% | > 75% | > 90% |
+| **RAG Relevance** | > 70% | > 80% | > 90% |
+
+### Evaluation Process
+
+1. **Self-Evaluation**: Complete the checklist above
+2. **Performance Testing**: Run provided benchmark suite
+3. **Code Review**: Submit for instructor/peer review
+4. **Documentation Review**: Ensure all docs are complete
+5. **Final Presentation**: Demo your system (15 min)
+
+### Common Pitfalls to Avoid
+
+- ❌ Using FP32 models (too slow and expensive)
+- ❌ Not implementing streaming (poor user experience)
+- ❌ Ignoring GPU memory limits
+- ❌ No error handling for OOM situations
+- ❌ Missing RAG source citations
+- ❌ Inadequate monitoring
+- ❌ No cost analysis
+
 ## Next Steps
 
 1. ✅ Review LLM fundamentals (Module 10)
