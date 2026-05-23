@@ -2057,7 +2057,7 @@ The earlier "✅ 100% Complete" claim was inaccurate. As of 2026-05-22 the curri
 | 107 GPU | 11 | 3 | 6 | **6 ✅** |
 | 108 Monitoring | 10 | **10 ✅** | 5 | **5 ✅** |
 | 109 IaC | 13 | **13 ✅** | 7 | **7 ✅** |
-| 110 LLM | 14 | 2 | 8 | **8 ✅** |
+| 110 LLM | 14 | **14 ✅** | 8 | **8 ✅** |
 
 **Status update:** All 62 promised labs were authored on 2026-05-22 as substantive hands-on walkthroughs (objective, prerequisites, numbered steps, validation checklist, cleanup, troubleshooting). They live in `lessons/mod-XXX-*/labs/`.
 
