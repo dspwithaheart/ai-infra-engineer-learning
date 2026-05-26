@@ -529,12 +529,12 @@ This curriculum prepares you for **AI Infrastructure Engineer** roles. For caree
    - Contribute to open-source ML infrastructure projects
 
 2. **Advance to Senior Engineer** (2-3 years total)
-   - Our **Senior AI Infrastructure Engineer** curriculum (coming soon)
+   - Continue with the [Senior Engineer track](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-learning)
    - Lead larger projects and mentor juniors
    - Design complex systems
 
 3. **Become an Architect** (4-6 years total)
-   - Our **AI Infrastructure Architect** curriculum (coming soon)
+   - Continue with the [Architect track](https://github.com/ai-infra-curriculum/ai-infra-architect-learning)
    - Design enterprise ML platforms
    - Strategic technical leadership
 
