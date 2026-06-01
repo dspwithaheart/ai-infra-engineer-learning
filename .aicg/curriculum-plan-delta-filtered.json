@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "role_id": "engineer",
+  "month": "2026-06",
+  "rationale": "Analysis of 28 AI Infrastructure Engineer postings from 2026-03 to 2026-05 confirms the existing 10 modules already cover the universal table-stakes (Python, Linux, Docker, Kubernetes, cloud, Terraform, CI/CD, observability, GPU, MLOps, data pipelines, LLM serving with vLLM/Triton, RAG, vector DBs, fine-tuning, cost optimization). The single material shift in the last 90 days that the mid-level (L20) AI Infrastructure Engineer role genuinely owns is the rise of *AI agent infrastructure* \u2014 production platforms that host, orchestrate, observe, and govern multi-agent and MCP-based systems. Capstone explicitly lists Model Context Protocol implementations; Yuno's posting is literally titled 'AI Agent Infrastructure'; Autohive's product is multi-agent; Scale AI's enterprise platform calls out 'secure, scalable Agentic workflows.' This is L20 work because it sits on top of the K8s/cloud/observability stack the engineer already owns \u2014 not deep performance tuning (L35), not multi-cloud architecture (L30+), not leadership (L40+). Other emerging trends \u2014 LLM-D / disaggregated serving (L35 Performance), Slurm+K8s hybrid orchestration (L30 ML Platform), InfiniBand/RDMA tuning (L35 Performance) \u2014 are linked from JOB_REQUIREMENTS.md to their natural higher-level owners rather than duplicated here. No additions are proposed for those.",
+  "modules": [
+    {
+      "id": "mod-111-agent-infrastructure",
+      "title": "AI Agent Infrastructure",
+      "description": "Build the production infrastructure underneath agentic LLM applications: hosting Model Context Protocol (MCP) servers, orchestrating multi-agent workflows, securing tool calls, observing agent traces (token cost, tool latency, hallucination signals), running multi-tenant agent platforms with per-tenant quotas, and managing agent lifecycle (versioning, rollout, kill switches, sandboxing). Builds directly on Module 10 (LLM Infrastructure) and Module 04 (Kubernetes). Out of scope: writing the agents themselves \u2014 this is the platform underneath them.",
+      "exercises": [],
+      "rationale": "Mid-level AI Infrastructure Engineer postings in March-May 2026 increasingly require production experience with AI agent platforms and MCP, but the existing curriculum (Module 10) stops at single-model LLM serving + RAG. The gap is structural, not a single missing exercise: hosting MCP servers, securing tool calls, multi-agent orchestration, agent-trace observability, and agent lifecycle management together form a distinct production discipline that warrants its own module. The L20 role owns this because it sits on the same K8s/cloud/observability stack the engineer already runs (per JOB_REQUIREMENTS.md sections 2-4 and 7) \u2014 it is not deep performance tuning (L35) or multi-cloud architecture (L30+) or research engineering. Recommended exercise scaffolding for human reviewers to populate: (a) host an MCP server on Kubernetes with secrets, RBAC, and rate limiting, (b) build an agent observability stack (token cost + tool-call latency + replay) with Langfuse or OpenTelemetry, (c) deploy a multi-tenant agent platform with per-tenant quotas and sandboxed tool execution, (d) implement a kill switch and canary rollout for an agent in production. Covers JOB_REQUIREMENTS.md section 7 (AI agent infrastructure).",
+      "evidence": [
+        {
+          "employer": "Capstone Investment Advisors",
+          "title": "AI Infrastructure Engineer",
+          "url": "https://job-boards.greenhouse.io/capstoneinvestmentadvisors/jobs/8427813002",
+          "date_observed": "2026-05-15",
+          "quote": "Hands-on work with AI agent frameworks, LLM integrations, or Model Context Protocol (MCP) implementations... Design and implement orchestration frameworks for LLM-powered tools and agent workflows... Build Model Context Protocol services for enterprise system integration"
+        },
+        {
+          "employer": "Scale AI",
+          "title": "Staff Infrastructure Software Engineer, Enterprise AI",
+          "url": "https://scale.com/careers/4599700005",
+          "date_observed": "2026-05-20",
+          "quote": "Define architectural patterns for secure, scalable Agentic workflows... Hands-on experience and a passion for working with Agents, LLMs, vector databases, and other emerging AI technologies"
+        },
+        {
+          "employer": "Yuno",
+          "title": "Senior Platform Engineer \u2014 AI Agent Infrastructure",
+          "url": "https://jobs.lever.co/yuno/33309adb-efb0-414c-9e9a-da13435a0242",
+          "date_observed": "2026-04-28",
+          "quote": "Yuno is building a platform that provisions, deploys, and manages AI agents at scale on AWS, requiring someone to own infrastructure and ensure the system is reliable, observable, and ready to scale"
+        },
+        {
+          "employer": "Autohive",
+          "title": "AI Infrastructure Engineer",
+          "url": "https://apply.workable.com/autohive/j/90924BE6B4",
+          "date_observed": "2026-04-10",
+          "quote": "Autohive is building the future of AI-driven work automation, enabling users to discover, build, and deploy AI agents that work together to eliminate toil and maximize productivity"
+        }
+      ]
+    }
+  ],
+  "exercises": [],
+  "projects": []
+}
